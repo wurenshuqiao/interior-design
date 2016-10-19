@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background:#d0cfcb;
+	}
+ul,li{list-style:none;}
+.top-1{
+	width:100%;
+	background:#f2f2f2;
+	border-bottom:1px #d0d0d0 solid;
+	height:71px;
+	margin:0 auto;
+	background-attachment:scroll; 
+	}
+.box1{
+	width:980px;
+	height:71px;
+	margin:0 auto;
+	}
+.box1 li{
+	width:186px;
+	float:left;
+	text-align:center;
+	border-left:1px #d0d0d0 solid;
+	border-right:1px #d0d0d0 solid;
+	height:71px;
+	line-height:71px;
+	}
+.box1 li a{
+	text-decoration:none;
+	font-size:21px;
+	font-family:"黑体";
+	color:#000;
+	display:block;
+	}
+.box1 ul li a:hover,.box1 ul li a.action{
+	background:#000;
+	color:#ffffff;
+	}
+.top-2{
+	width:100%;
+	background:#fbfbfb;
+	height:101px;
+	margin:0 auto;
+	background-attachment:scroll;
+	}
+.banner{
+	width:940px;
+	height:101px;
+	margin:0 auto;
+	position:relative;
+	}
+.box2{
+	width:315px;
+	height:46px;
+	position:absolute;
+	top:28px;
+	left:0px;
+	}
+.box2 img{
+	border:0px;
+	}
+.text{
+	width:180px;
+	height:30px;
+	position:absolute;
+	top:35px;
+	right:0px;
+	}
+.img1{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:40px;
+	right:5px;
+	}
+.content{width:100%;height:876px;background:url(../images/bg-top.jpg) scroll center center;}
+.content .main-top{width:980px;height:592px;margin:0 auto;position:relative;}
+.content .main-top .bg{width:980px;height:552px;position:absolute;top:40px;background:#FFF;}
+.content .main-top .bg .page{width:940px;height:403px;position:absolute;top:20px;left:20px;}
+.content .main-top .bg .page .bigpic{width:620px;height:403px;float:left;position:relative;}
+.content .main-top .bg .page .bigpic li{position:absolute;top:0;left:0;filter:alpha(opacity=0); opacity:0;}
+.content .main-top .bg .page .bigpic li a img{border:0px;}
+.page ol{width:320px;height:403px;float:left;}
+.page ol li{width:140px;float:left;height:121px;margin-left:20px;margin-bottom:20px;position:relative;}
+.page ol li a.active{width:140px;height:121px;opacity:0.7;filter:"alpha(opacity=70)";}
+.page ol li a img{border:0px;}
+.bg-bottom{
+	width:940px;
+	height:70px;
+	position:absolute;
+	top:450px;
+	left:20px;
+	}
+.bg-bleft{
+	width:190px;
+	height:70px;
+	border-right:1px dashed #e5e5e5;
+	font-size:60px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#ff9601;
+	line-height:70px;
+	text-align:center;
+	}
+.bg-bright{
+	width:690px;
+	height:60px;
+	position:absolute;
+	left:210px;
+	top:0px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#262626;
+	}
+.main-bottom{
+	width:980px;
+	height:284px;
+	margin:auto;
+	position:relative;
+	}
+.wrapper{
+	width:960px;
+	height:200px;
+	position:absolute;
+	top:35px;
+	left:10px;
+	}
+.wrapper-top{
+	width:960px;
+	height:35px;
+	}
+.wrapper-tleft{
+	width:150px;
+	height:35px;
+	font-size:35px;
+	font-family:"黑体";
+	color:#ffffff;
+	line-height:35px;
+	margin-left:10px;
+	}
+.wrapper-bottom li{
+	width:200px;
+	height:121px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:25px;
+	border:10px #FFF solid;
+	}
+.wrapper-bottom li a{
+	display:block; 
+	position:relative;
+	}
+.wrapper-bottom li a img{
+	border:0px;
+	}
+.wrapper-bottom li a span{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing:-2px;
+	display:block;
+	width:78px;
+	height:35px;
+	background:#fff;
+	color:#262626;
+	font-size:35px;
+	line-height:1.2em;
+	position:absolute;
+	left:0;	
+	bottom:0;
+	overflow:hidden;
+	z-index:99;
+	}
+.bottom{
+	width:100%;
+	height:310px;
+	background:#FFF;
+	}
+.container{
+	width:980px;
+	height:225px;
+	margin:0 auto;
+	position:relative;
+	}
+.nav{
+	width:940px;
+	height:225px;
+	margin-left:20px;
+	position:relative;
+	}
+.nav-left{
+	width:285px;
+	height:225px;
+	position:absolute;
+	top:35px;
+	left:0px;
+	}
+.nav-left-bot1{
+	width:160px;
+	height:35px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-bottom:20px;
+	}
+.p{
+	line-height:20px;
+	color:#262626;
+	font-family:"微软雅黑";
+	font-size:14px;
+	}
+.nav-left-bot2{
+	color:#f58e01;
+	margin-bottom:8px;
+	}
+.button{
+	width:122px;
+	height:43px;
+	position:absolute;
+	bottom:0px;
+	}	
+.button:hover{
+	background:#ff9601;
+	}
+.nav-center{
+	width:290px;
+	height:225px;
+	position:absolute;
+	top:35px;
+	left:320px;
+	}
+.nav-center-bot1{
+	width:160px;
+	height:35px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-bottom:20px;
+	}
+.log{
+	width:290px;
+	height:170px;
+	position:relative;
+	}
+.log-img{
+	width:140px;
+	height:168px;
+	border:solid 1px #e5e5e5;
+	}
+.log-img img{
+	width:120px;
+	height:150px;
+	margin-top:10px;
+	margin-left:10px;
+	}
+.extra-wrap{
+	width:125px;
+	height:170px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	}
+.nav-right{
+	width:295px;
+	height:225px;
+	position:absolute;
+	top:35px;
+	left:645px;
+	}
+.nav-right-bot1{
+	width:160px;
+	height:35px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-bottom:20px;
+	}
+.nav-right-bot2{
+	width:285px;
+	height:170px;
+	position:relative;
+	}
+.nav-right li{
+	background:url(../images/marker-2.gif) 0px 8px no-repeat;
+	padding-left:7px;
+	padding-bottom:7px;
+	border-bottom:1px solid #e5e5e5;
+	}
+.nav-right li a{
+	text-decoration:none;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:14PX;
+	}
+.nav-right li a:hover{
+	color:#f58e01;
+	}
+h3{
+	font-family:"黑体";
+	font-size:35px;
+	}
+.footer{
+	width:100%;
+	height:123px;
+	background:#fd0cfcb;
+	position:relative;
+	}
+.footer-bot{
+	width:940px;
+	height:123px;
+	margin:auto;
+	position:relative;
+	}
+.footer-bug1{
+	width:295px;
+	height:66px;
+	position:absolute;
+	top:35px;
+	left:0px;
+	}
+.footer-bug2{
+	width:260px;
+	height:66px;
+	position:absolute;
+	top:35px;
+	left:320px;
+	}
+.footer-bug3{
+	width:320px;
+	height:66px;
+	position:absolute;
+	top:35px;
+	left:620px;
+	}
+.p1{
+	line-height:20px;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:18px;
+	}
+.p2{
+	line-height:20px;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:14px;
+	}
+.phone-numb{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:25px;
+	color:#949494;
+	line-height:66px;
+	padding-right:15px;
+	}
+.bag{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:40px;
+	color:#000;
+	line-height:40px;
+	}
+.list-services li{
+	float:left;	
+	padding:0 0 0 20px;
+	}
+.list-services li a{
+	display:block;
+	width:60px;
+	height:45px;
+	background:url(../images/social-icons.png) left top no-repeat;
+	}
+.list-services li a#item-2{
+	background-position:-80px 0;
+	}
+.list-services li a#item-3{
+	background-position:-160px 0;
+	}
+.list-services li a#item-4{
+	background-position:-240px 0;
+	}
